@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:id="@+id/main"
-    android:backgroundTint="@color/greyLight"
+    android:background="@color/background"
     tools:context=".ui.CameraUI">
 
 
@@ -63,16 +63,16 @@
             android:layout_height="60dp"
             android:layout_gravity="start|center_vertical"
             android:layout_margin="5dp"
+            android:foreground="?attr/selectableItemBackground"
             app:cardCornerRadius="360dp">
 
             <ImageView
                 android:id="@+id/flashIcon"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:background="@android:color/white"
                 android:contentDescription="@string/flash_option"
                 android:padding="15dp"
-                app:tint="@android:color/black"
+                app:tint="@color/btnColor"
                 android:src="@drawable/flash_off_ic" />
 
         </androidx.cardview.widget.CardView>
@@ -84,13 +84,13 @@
             android:layout_height="80dp"
             android:layout_gravity="center"
             android:layout_margin="5dp"
+            android:foreground="?attr/selectableItemBackground"
             app:cardCornerRadius="360dp">
 
             <ImageView
                 android:id="@+id/captureIcon"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:background="@color/white"
                 android:contentDescription="@string/capture_record"
                 android:padding="15dp"
                 android:src="@drawable/camera_ic" />
@@ -103,16 +103,16 @@
             android:layout_height="60dp"
             android:layout_gravity="end|center_vertical"
             android:layout_margin="5dp"
+            android:foreground="?attr/selectableItemBackground"
             app:cardCornerRadius="360dp">
 
             <ImageView
                 android:id="@+id/flipCamIcon"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:background="@color/white"
                 android:contentDescription="@string/flip_camera_playpause"
                 android:padding="15dp"
-                app:tint="@color/black"
+                app:tint="@color/btnColor"
                 android:src="@drawable/flip_cam_ic" />
 
         </androidx.cardview.widget.CardView>
