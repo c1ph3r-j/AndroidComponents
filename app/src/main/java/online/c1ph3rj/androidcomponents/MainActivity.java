@@ -37,14 +37,10 @@ public class MainActivity extends AppCompatActivity {
     void init() {
         try {
             RecyclerView recyclerView = findViewById(R.id.pagesView);
-
-            // 2 columns grid
             recyclerView.setLayoutManager(new GridLayoutManager(this, 2));
-
             List<GridItem> gridItems = List.of(
                     new GridItem("Camera", CameraUI.class)
             );
-
             GridAdapter adapter = new GridAdapter(this, gridItems);
             recyclerView.setAdapter(adapter);
         } catch (Exception e) {
