@@ -21,4 +21,4 @@ dependencyResolutionManagement {
 
 rootProject.name = "AndroidComponents"
 include(":app")
- 
+include(":EasyCamera")
