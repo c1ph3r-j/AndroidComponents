@@ -95,9 +95,10 @@ Or integrate CameraKit in your own Activity/Fragment.
 
 ## Sample UI
 
-(screenshots/camera\_1.png)
-(screenshots/camera\_2.png)
-(screenshots/camera\_3.png)
+
+<img src="screenshots/camera_1.png" width="300"/>
+<img src="screenshots/camera_2.png" width="300"/>
+<img src="screenshots/camera_3.png" width="300"/>
 
 ## Project Structure
 
